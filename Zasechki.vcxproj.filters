@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Bipolar">
+      <UniqueIdentifier>{52cb5a6b-7718-465b-9ec3-16c85098873e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Polar">
+      <UniqueIdentifier>{fde2cb95-8b0f-4b96-9034-5fa6d01756d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Linear">
+      <UniqueIdentifier>{6e896ff2-da59-4baf-8bb5-91ca8931168d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Opposite Linear">
+      <UniqueIdentifier>{2a27c1c3-e852-4321-b08e-483e1e843d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Angular">
+      <UniqueIdentifier>{1d35a6d6-80bc-4192-be6d-82befe6f6597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Opposite Angular">
+      <UniqueIdentifier>{f1effb84-1988-4420-910a-68595b49b6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Serif">
+      <UniqueIdentifier>{688fff21-00f6-4d69-b7a9-d0a6d05cf867}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="angular.cpp">
+      <Filter>Исходные файлы\Angular</Filter>
+    </ClCompile>
+    <ClCompile Include="serif.cpp">
+      <Filter>Исходные файлы\Serif</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="main_functions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="angular.h">
+      <Filter>Исходные файлы\Angular</Filter>
+    </ClInclude>
+    <ClInclude Include="serif.h">
+      <Filter>Исходные файлы\Serif</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
