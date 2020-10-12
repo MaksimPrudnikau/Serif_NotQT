@@ -2,7 +2,6 @@
 
 void Angular::importData()
 {
-
 	cout << "Координаты первой точки\n";
 	cout << "X - ";
 	cin >> A.x;
@@ -18,8 +17,6 @@ void Angular::importData()
 	cout << "Угол измеренный при второй точке: (град мин сек)\n";
 	cin >> beta.grad >> beta.min >> beta.sec;
 }
-
-
 
 void Angular::getAnswer() 
 {

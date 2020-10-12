@@ -10,3 +10,8 @@ double Serif::Angle::inRad()
 {
 	return this->inGrad() * M_PI / 180;
 }
+
+bool Serif::Angle::isCorrect()
+{
+
+}

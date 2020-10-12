@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClCompile Include="angular.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="opposite angular.cpp" />
     <ClCompile Include="serif.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="angular.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="main_functions.h" />
+    <ClInclude Include="opposite angular.h" />
     <ClInclude Include="serif.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

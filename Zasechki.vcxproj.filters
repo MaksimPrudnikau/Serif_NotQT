@@ -45,6 +45,9 @@
     <ClCompile Include="serif.cpp">
       <Filter>Исходные файлы\Serif</Filter>
     </ClCompile>
+    <ClCompile Include="opposite angular.cpp">
+      <Filter>Исходные файлы\Opposite Angular</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
@@ -58,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="serif.h">
       <Filter>Исходные файлы\Serif</Filter>
+    </ClInclude>
+    <ClInclude Include="opposite angular.h">
+      <Filter>Исходные файлы\Opposite Angular</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

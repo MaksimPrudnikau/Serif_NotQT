@@ -1,13 +1,14 @@
 #pragma once
 #include "Header.h"
 #include "serif.h"
-class Angular : private virtual Serif
+
+class OppositeAngular : private virtual Serif
 {
-	Point A, B; //исходные
+	Point A, B, C; //исходные
 	Point N; //искомая
 	Angle alpha, beta;
 	void importData() override;
 	void calculate() override;
-public: 
+public:
 	void getAnswer() override;
 };

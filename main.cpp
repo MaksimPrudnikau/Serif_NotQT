@@ -1,8 +1,7 @@
 #include "Header.h"
 #include "main_functions.h"
 #include "angular.h"
-
-
+#include "opposite angular.h"
 
 int main()
 {
@@ -23,7 +22,8 @@ int main()
 	}
 	else if (choice == 4)
 	{
-
+		OppositeAngular opposite_angular;
+		opposite_angular.getAnswer();
 	}
 	else if (choice == 5)
 	{
