@@ -1,7 +1,12 @@
 #include "serif.h"
 
 //Перевод из градусов минут секунд в Град.
-int Serif::Angle::inGrad()
+double Serif::Angle::inGrad()
 {
 	return grad + min / 60. + sec / 3600.;
+}
+
+double Serif::Angle::inRad()
+{
+	return this->inGrad() * M_PI / 180;
 }

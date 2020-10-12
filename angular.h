@@ -3,13 +3,12 @@
 #include "serif.h"
 class Angular : private virtual Serif
 {
-	double
-		x_1, y_1,
-		x_2, y_2;
+	Point A, B; //исходные
+	Point N; //искомая
 	Angle alpha, beta;
-
-	void importData();
+	
 public: 
+	void importData() override;
 	void getAnswer() override;
 	void calculate() override;
 };

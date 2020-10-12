@@ -7,31 +7,36 @@
 int main()
 {
 	setlocale(LC_CTYPE, "RUS");
-
-	switch (chooseTheMethod())
+	int choice = chooseTheMethod();
+	if (choice == 1)
 	{
-	case 1:
-		cout << "Вы выбрали 1 метод\n";
-		break;
-	case 2:
-		cout << "Вы выбрали 2 метод\n";
-		break;
-	case 3:
+
+	}
+	else if (choice == 2)
+	{
+
+	}
+	else if (choice == 3)
+	{
 		Angular angular;
-		break;
-	case 4:
-		cout << "Вы выбрали 4 метод\n";
-		break;
-	case 5:
-		cout << "Вы выбрали 5 метод\n";
-		break;
-	case 6:
-		cout << "Вы выбрали 6 метод\n";
-		break;
-	default:
+		angular.getAnswer();
+	}
+	else if (choice == 4)
+	{
+
+	}
+	else if (choice == 5)
+	{
+
+	}
+	else if (choice == 6)
+	{
+
+	}
+	else
+	{
 		cout << "Введённая цифра не совпадает с номером выбора\n";
 		chooseTheMethod();
-		break;
 	}
 	return 0;
 }
